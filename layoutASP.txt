@@ -1,0 +1,12 @@
+index
+listProduct
+detailProduct
+search
+cart
+profile
+
+ADMIN:
+index
+account: add edit delete
+product: add edit delete
+productType: add edit delete

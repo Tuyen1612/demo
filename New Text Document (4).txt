@@ -1,0 +1,23 @@
+<li>
+                            <!--================Search Box Area =================-->
+                            <!--<div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
+                                <div class="search_box_inner">
+                                    <form asp-controller="Products" asp-action="ByPriceRange" method="get">
+
+                                        <div class="input-group">
+                                            <input type="text" name="minPrice" class="form-control" placeholder="Nhập giá khởi điểm">
+                                            
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+                                             </span>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" name="maxPrice" class="form-control" placeholder="Nhập giá giới hạn">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+                                            </span>*
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>-->
+                        </li>

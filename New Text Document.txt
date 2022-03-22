@@ -1,0 +1,21 @@
+children: [
+            Container(
+              alignment: Alignment.center,
+              margin: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+              height: 50,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: TextField(
+                decoration: InputDecoration(
+                  hintText: 'Enter keywords ...',
+                  hintStyle: TextStyle(
+                    color: kPrimaryColor.withOpacity(0.5),
+                  ),
+                  enabledBorder: InputBorder.none,
+                  focusedBorder: InputBorder.none,
+                ),
+              ),
+            ),
+          ],

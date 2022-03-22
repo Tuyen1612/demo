@@ -1,0 +1,33 @@
+Lập trình bất đồng bộ là gì ?
+
+	Lập trình bất đồng bộ là hoạt động cho phép chương trình thực hiện tiếp các công việc mà trong khi chờ các công việc khác vẫn đang trong qúa trình hoàn thành.
+
+Lập trình bất đồng bộ dùng khi nào ?
+Lập trình bất đồng bộ dùng khi :
++ Lấy dữ liệu từ Server, Firestore
++ Ghi, update vào database
++ Đọc nội dung từ file
+
+Các từ khoá dùng trong lập trình bất đồng bộ : Future, async, await.
+
+Không dùng lập trình bất đồng bộ thì sao ?
+Nếu không dùng bất đồng bộ thì sảy ra trường hợp : dữ liệu nhận về bị lỗi.
+
+Khái niệm Future
+
+Future là kết quả trả về của hoạt động bất đồng bộ. Future có hai trạng thái là : hoàn thành và chưa hoàn thành.
+
+Future hoàn thành : Khi hoạt động bất đồng bộ thực hiện xong, lúc đó future ở trạng thái hoàn thành và trả về một giá trị hoặc một lỗi.
+Khi hoạt động bất đồng bộ thất bại thì Future ở trạng thái hoàn thành và trả về lỗi.
+
+Future chưa hoàn thành: Khi hoạt động đồng bộ được gọi nó sẽ trả về một Future chưa hoàn thành.
+
++ Future : dùng cho kiểu dữ liệu trả về.
++ async : được đặt trước khối chứa await, nó đánh dấu là bất đồng bộ.
++ await : được đặt bên trong async và đặt ở trước các phương thức thực hiện việc load dữ liệu, hay ghi, update vào database..
+
+Lập trình bất đồng bộ sử dụng .then
+
+Có một kiểu biểu diễn lập trình bất đồng bộ mà có thể xử lý lỗi và exception rất tiện lợi đó là sử dụng cú pháp chứa “then”.
+
+Khi thực hiện thao tác lấy, ghi, đọc, update dữ liệu từ File, Server, Firebase, Firestore, bạn nên dùng lập trình bất đồng bộ.
